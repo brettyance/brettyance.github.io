@@ -1,6 +1,6 @@
 ---
 title: Test Page
-date: 2024-10-08 00:00:00 +0000
+date: 2024-10-07 20:00:00 -0600
 categories: [Education]
 tags: [blog, development]
 description: Testing the usage of Jekyll for a weblog.
