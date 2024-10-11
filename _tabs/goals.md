@@ -58,6 +58,7 @@ I'm particularly curious about this Lab, since I've spent so much time around OT
 - [ ] Ruby
 - [ ] Platinum
 - [ ] Holo
+
 I'm not so keen on red-teaming that I want to be touted as ***the guy*** and place in the top 10, but I'll be incredibly happy to be able to get all flags in a season.
 
 ## Projects
