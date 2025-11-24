@@ -1,1 +1,1 @@
-Personal Website Blog of Brett Yance
+Personal Website of Brett Yance
