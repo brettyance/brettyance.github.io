@@ -3,8 +3,6 @@
 icon: fas fa-info-circle
 order: 5
 ---
-# About
-
 > I make computers tell me their stories.
 
 I'm Brett. I work in information security with a focus on blue team, incident response, and user education.
