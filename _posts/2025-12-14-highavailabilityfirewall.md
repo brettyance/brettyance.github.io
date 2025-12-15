@@ -27,6 +27,11 @@ If my pfSense VM goes offline due to a cat eating the network cable or a fried p
 ## The Genesis
 When I started my homelab, I wanted to put everything I would be testing, whether it was benign, insecure, or malicious, behind a firewall in order to keep the guest network secured and segregated from my home network. Each of the guests would require some amount of compute from the host hypervisor, and one mini PC would not be enough to do everything. I also needed to have nodes in the cluster available to migrate a guest if it goes offline, for high availability.
 
+> Extra context concerning high availability:<br>
+> In its current configuration, there are five Proxmox nodes in the datacenter. High availability in this context means that if the datacenter loses one of these nodes, any guests marked "HA" which were running on the client would migrate to another node in the cluster.<br>
+> In addition, the Corosync cluster manager requires some decision to be executed by vote, requiring a quorum. For example, if MFA is enabled, each node will submit its vote to verify that your MFA token is legitimate. If the cluster cannot establish a "quorum," defined as "one more than one half" of the cluster, it cannot proceed. In the current setup, that means at least three nodes must be present in order to pass the vote.
+{: .prompt-info}
+
 After installing Proxmox to each of the nodes, adding them to the same datacenter, and installing and configuring Ceph, we're left with the question of the firewall.
 
 ## A Linear Topology
