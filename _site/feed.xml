@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Brett Yance</title>
   <subtitle>"DFIR focused security professional sharing homelab projects, incident response writeups, and practical notes on blue team and cloud security."</subtitle>
-  <updated>2025-12-04T15:41:35-06:00</updated>
+  <updated>2025-12-14T21:24:46-06:00</updated>
   <author>
     <name>Brett Yance</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>High Availability Firewall on Proxmox</title>
+    <link href="http://localhost:4000/posts/highavailabilityfirewall/" rel="alternate" type="text/html" title="High Availability Firewall on Proxmox" />
+    <published>2025-12-14T20:00:00-06:00</published>
+  
+    <updated>2025-12-14T20:00:00-06:00</updated>
+  
+    <id>http://localhost:4000/posts/highavailabilityfirewall/</id>
+    <content type="text/html" src="http://localhost:4000/posts/highavailabilityfirewall/" />
+    <author>
+      <name>Brett Yance</name>
+    </author>
+
+  
+    
+    <category term="Homelab Creation" />
+    
+  
+
+  <summary>Setting up VLANs to route traffic to a firewall with high availability enabled in a Proxmox cluster</summary>
+
+  </entry>
 
 </feed>
 
