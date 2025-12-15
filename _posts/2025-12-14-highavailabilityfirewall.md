@@ -16,7 +16,7 @@ tags:
   - availability
   - confidentiality
   - walkthrough
-description: Setting up VLANs to route traffic to a firewall with high availability enabled in a Proxmox cluster
+description: Setting up VLANs to force traffic to a firewall with high availability enabled in a Proxmox cluster
 toc: true
 ---
 In which I show how I implemented a resilient edge device for my lab.
@@ -51,9 +51,9 @@ If we pretend a threat actor plugs their device into the lab network and tries t
 ## The Solution
 How do VLANs solve this?
 
-Instead of relying on a layer 3 device to do routing between subnets, we use VLAN tags to mark Ethernet frames to direct traffic at layer 2 to get to the correct layer 3 device.
+Instead of relying on a layer 3 device to do routing between subnets, we use VLAN tags to mark Ethernet frames and segregate broadcast domains at layer 2 to get to the correct layer 3 device.
 
-For home network traffic, we will leave everything at their defaults. On my switch, that means VLAN 1. My workstation, the NAS, any home services, and the Proxmox nodes themselves, will be communicating on that VLAN, in addition to the WAN port of pfSense.
+For home network traffic, we will leave everything default. On my switch, that means VLAN 1. My workstation, the NAS, any home services, and the Proxmox nodes themselves, will be communicating on that VLAN, in addition to the WAN port of pfSense.
 
 The lab network, on the other hand, needs to be on separate VLANs. I've created four additional VLANs: 10 for management, 20 for servers, 30 for clients, and 99 for untagged traffic - which will be discarded.
 
