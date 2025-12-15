@@ -38,7 +38,7 @@ I have a B.S. in Cybersecurity and Information Assurance from Western Governors 
 - LPI Linux Essentials
 - ITIL 4 Foundation
 
-Before leaning fully into security, I worked in enterprise IT as a Tier 2 technician with low level sysadmin responsibilities. That gave me experience with the realities of production Windows and environments, virtualization, networking, and blaming DNS and DHCP.
+Before leaning fully into security, I worked in enterprise IT as a Tier 2 technician with some sysadmin responsibilities. Hence, I do have experience with the realities of production Windows and environments, virtualization, networking, and earning the right to blame DNS and DHCP.
 
 ---
 
@@ -72,4 +72,3 @@ If you have questions or would like to collaborate, you can reach me here:
 
 - Email: [brett@brettyance.com](mailto:brett@brettyance.com) 
 - LinkedIn: [linkedin.com/in/brettyance](https://www.linkedin.com/in/brettyance/)
-  
